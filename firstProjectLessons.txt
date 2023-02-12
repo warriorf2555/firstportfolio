@@ -1,0 +1,2 @@
+1. Tailwind is different for Next js.
+2. Tailwind CSS Intellisense
