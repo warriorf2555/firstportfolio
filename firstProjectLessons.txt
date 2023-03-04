@@ -1,2 +1,15 @@
 1. Tailwind is different for Next js.
 2. Tailwind CSS Intellisense
+3. tfrce by ES7+ React to define new pages initial.
+4. ctrl+spacebar to import the particular page
+
+//Mobile tips
+5. uppercase hidden
+6. will show get in touch after certain breakpoints, md: inline-flex6
+7. To make header stick on the top, sticky top-0
+8. justify-between will have space between two div
+9. max-w-7vwl to give width and mx-auto to ensure correct margin between two sides
+10. padding can make somethings clean
+11. framer motion for animation
+12. two object, initial and animate, we can pass in opacity, x-axis or y-axis 
+13. section it will seperate
