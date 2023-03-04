@@ -17,7 +17,7 @@ function Hero({}: Props) {
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
-      <Image className="relative rounded-fill h-32 w-32 mx-auto object-cover" src={FaiqPicture} alt="" />
+      <Image className="relative rounded-fill rounded-full h-40 w-40 mx-auto object-cover" src={FaiqPicture} alt="Faiq" />
       <div className="z-20">
         <h2 className="text-sm uppercase text-white-500 pb-2 tracking-[15px]">Software Engineer</h2>
         <h1 className="text-5xl lg:text-6xl font-semibold px-10">

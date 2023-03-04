@@ -13,3 +13,10 @@
 11. framer motion for animation
 12. two object, initial and animate, we can pass in opacity, x-axis or y-axis 
 13. section it will seperate
+14. overflow for fluidity
+15. can use overflow hidden
+16. scroll-y to make it snappy
+17. apply tailwind css by @apply
+18. href is depending on the id
+19. transition on the property, give it duration for smooth flow
+20. tailwind snapping for good transitiond and focus
