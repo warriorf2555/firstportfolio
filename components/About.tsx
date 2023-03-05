@@ -22,6 +22,7 @@ function About({}: Props) {
           md:rounded-lg md:w-[1000px] md:h-[600px] xl:w-[1400px] xl:h-[600px]"
           src={FaiqPicture}
           alt="Faiq"
+          priority
         />
       </motion.div>
 
@@ -29,11 +30,10 @@ function About({}: Props) {
         <h4 className="text-4xl font-semibold">
           Here is a <span className="underline decoration-[#F7AB0A]/50">little</span> background.
         </h4>
-        <p>
-          As a software engineer in Air Asia, the individual is responsible for designing, developing, and maintaining the
-          company&apos;s websites and applications. They must be highly skilled in programming languages, web development
-          technologies, and tools to ensure that the Air Asia website and mobile applications are fast, responsive,
-          user-friendly, and secure.
+        <p className="text-justify">
+          I am a student graduated in Electronic Engineering Majoring in Telecommunications. However, I decided to explore to
+          the Software Engineer&apos;s path. Currenctly, I am a software engineer in Air Asia. Here, I am responsible for
+          designing, developing, and maintaining the company&apos;s websites and applications.
         </p>
       </div>
     </motion.div>
