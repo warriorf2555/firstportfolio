@@ -8,6 +8,7 @@ import Experience from "../components/Experience";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
+import Resume from "../components/Resume";
 
 import { ArrowUpCircleIcon } from "@heroicons/react/24/solid";
 
@@ -29,6 +30,10 @@ const Home: NextPage = () => {
 
       <section id="about" className="snap-center">
         <About />
+      </section>
+
+      <section id="resume" className="snap-center hidden md:flex">
+        <Resume />
       </section>
 
       <section id="experience" className="snap-center">

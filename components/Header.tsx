@@ -1,6 +1,6 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
-import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
+import { EnvelopeIcon, DocumentTextIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
@@ -19,6 +19,10 @@ function Header({}: Props) {
         <SocialIcon url="https://www.linkedin.com/in/muhammad-faiq-muhamad-fisol/" fgColor="gray" bgColor="transparent" />
 
         <SocialIcon url="https://discordapp.com/users/353173653870870528" style={{ height: "40px" }} />
+
+        <a download="Resume_Faiq.pdf" href="Resume_Faiq.pdf">
+          <DocumentTextIcon className="h-[40px] ml-2" />
+        </a>
       </motion.div>
 
       <motion.div
