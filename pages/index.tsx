@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Link from "next/link";
 import Head from "next/head";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
@@ -7,6 +8,8 @@ import Experience from "../components/Experience";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
+
+import { ArrowUpCircleIcon } from "@heroicons/react/24/solid";
 
 const Home: NextPage = () => {
   return (
@@ -43,6 +46,14 @@ const Home: NextPage = () => {
       <section id="contact" className="snap-start">
         <ContactMe />
       </section>
+
+      <Link href="#hero">
+        <footer className="sticky bottom-5 w-full cursor-pointer">
+          <div className="flex items-center justify-center">
+            <ArrowUpCircleIcon className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer" />
+          </div>
+        </footer>
+      </Link>
     </div>
   );
 };
