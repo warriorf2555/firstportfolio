@@ -32,7 +32,7 @@ function About({}: Props) {
         </h4>
         <p className="text-justify">
           I am a student graduated in Electronic Engineering Majoring in Telecommunications. However, I decided to explore to
-          the Software Engineer&apos;s path. Currenctly, I am a software engineer in Air Asia. Here, I am responsible for
+          the Software Engineer&apos;s path. Currently, I am a software engineer in Air Asia. Here, I am responsible for
           designing, developing, and maintaining the company&apos;s websites and applications.
         </p>
       </div>
