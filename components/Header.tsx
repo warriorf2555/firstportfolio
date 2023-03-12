@@ -21,7 +21,7 @@ function Header({}: Props) {
         <SocialIcon url="https://discordapp.com/users/353173653870870528" style={{ height: "40px" }} />
 
         <a download="Resume_Faiq.pdf" href="Resume_Faiq.pdf">
-          <DocumentTextIcon className="h-[40px] ml-2" />
+          <DocumentTextIcon className="h-[40px] ml-2 animate-pulse" />
         </a>
       </motion.div>
 
